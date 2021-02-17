@@ -3,6 +3,22 @@
 // * English: https://github.com/consul/consul/blob/master/CUSTOMIZE_EN.md#css
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
-header {
+.wrapper > header {
   background: #ffffff;
+}
+
+.top-bar {
+  background: #ffffff !important;
+}
+
+.top-bar .top-bar-title a img {
+  padding: 12px;
+}
+
+.top-bar .menu > li a {
+  color: #333333 !important;
+}
+.top-bar .menu > li .button {
+  background-color: #1F5DA1 !important;
+  color: #ffffff !important;
 }
