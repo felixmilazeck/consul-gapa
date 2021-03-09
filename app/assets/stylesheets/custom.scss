@@ -4,21 +4,25 @@
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
 .wrapper > header {
-  background: #ffffff;
+  background: #f1f1e9;
 }
 
 .top-bar {
-  background: #ffffff !important;
+  background: #f1f1e9 !important;
 }
 
 .top-bar .top-bar-title a img {
   padding: 12px;
 }
 
+.top-links {
+  background: #669933;
+}
+
 .top-bar .menu > li a {
   color: #333333 !important;
 }
 .top-bar .menu > li .button {
-  background-color: #1F5DA1 !important;
+  background-color: #669933 !important;
   color: #ffffff !important;
 }
